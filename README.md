@@ -1,10 +1,21 @@
-# Galamsey Detection ML
+# Galamsey Detection using Machine Learning
 
-This project trains a machine learning model to detect galamsey (illegal mining)
-areas from satellite imagery.
+This project trains a convolutional neural network to detect illegal mining (galamsey) from satellite imagery.
 
-Dataset:
-- 50 galamsey patches
-- 50 non-galamsey patches
+## Dataset
+100 satellite image patches extracted using QGIS.
 
-Images were extracted from satellite imagery using QGIS.
+Classes:
+- Galamsey
+- No Galamsey
+
+## Model
+Transfer learning using MobileNetV2.
+
+## Training Results
+Validation Accuracy: 85%
+
+## Tools Used
+- TensorFlow
+- Google Colab
+- QGIS
