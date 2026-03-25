@@ -13,7 +13,7 @@ Classes:
 Transfer learning using MobileNetV2.
 
 ## Training Results
-Validation Accuracy: 85%
+Validation Accuracy: Still Varies
 
 ## Tools Used
 - TensorFlow
